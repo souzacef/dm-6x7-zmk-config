@@ -1,7 +1,7 @@
 if SHIELD_DACTYL_MANUFORM_6x7_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Dactyl Manuform"
+    default "Cosmos Keyboard"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
