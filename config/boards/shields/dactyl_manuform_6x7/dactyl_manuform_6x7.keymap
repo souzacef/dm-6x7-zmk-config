@@ -22,8 +22,8 @@
 			&kp C_VOL_UP     &kp GRAVE    &kp N1    &kp N2       &kp N3      &kp N4     &kp N5           &kp N6       &kp N7      &kp N8      &kp N9     &kp N0     &kp MINUS   &kp EQUAL
 			&kp C_VOL_DN     &kp TAB      &kp Q     &kp W        &kp E       &kp R      &kp T            &kp Y        &kp U       &kp I       &kp O      &kp P      &kp P       &kp BSLH 
 			&kp PAUSE_BREAK  &kp CAPS     &kp A     &kp S        &kp D       &kp F      &kp G            &kp H        &kp J       &kp K       &kp L      &kp C      &kp TILDE   &kp RBKT 
-            		&kp PSCRN        &kp LSHFT    &kp Z     &kp X        &kp C       &kp V      &kp B            &kp N        &kp M       &kp COMMA   &kp DOT    &kp SEMI   &kp SLASH   &kp RSHIFT 
-			&none            &none        &none     &kp K_CMENU  &kp INS     &kp DEL    &kp ENTER        &kp BSPC     &kp ENTER   &kp SPACE   &kp RCMD   &kp RALT   &kp RBKT    &kp BSLH
+            		&kp LCTRL(C)     &kp LSHFT    &kp Z     &kp X        &kp C       &kp V      &kp B            &kp N        &kp M       &kp COMMA   &kp DOT    &kp SEMI   &kp SLASH   &kp RSHIFT 
+			&kp PSCRN        &none        &none     &kp K_CMENU  &kp INS     &kp DEL    &kp ENTER        &kp BSPC     &kp ENTER   &kp SPACE   &kp RCMD   &kp RALT   &kp RBKT    &kp BSLH
 			&mo FUNCTION     &kp LCTRL    &kp LWIN  &kp LALT     &kp PG_DN   &kp SPACE  &kp BSPC         &mo FUNCTION   &kp N8      &kp RCTRL   &kp N0     &kp MINUS  &kp EQUAL   &kp A   
 			>;
 		};
