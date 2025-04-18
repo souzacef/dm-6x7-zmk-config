@@ -76,3 +76,10 @@
         };
     };
 };
+
+/ {
+    bt-cosmo {
+        compatible = "zmk,bluetooth";
+        local-name = "Cosmos Keyboard";
+    };
+};
