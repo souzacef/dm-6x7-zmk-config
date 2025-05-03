@@ -23,12 +23,12 @@
 
 		default_layer {
 			bindings = <
-			&mkp LCLK       &kp ESC      &kp F1    &kp F2        &kp F3      &kp F4     &kp F5            &kp EXCL      &kp AT      &kp POUND   &kp DLLR      &kp PRCNT   &kp CARET    &kp AMPS
-			&mkp MCLK       &kp APOS     &kp N1    &kp N2        &kp N3      &kp N4     &kp N5            &kp STAR      &kp LPAR    &kp RPAR    &kp EQUAL     &kp PLUS    &kp MINUS    &kp UNDER
-			&mkp RCLK       &kp TAB      &kp Q     &kp W         &kp E       &kp R      &kp T             &kp FSLH      &kp QMARK   &kp BSLH    &kp PIPE      &kp NUBS    &kp PIPE2    &kp SEMI 
-			&msc SCRL_UP    &kp CAPS     &kp A     &kp S         &kp D       &kp F      &kp G             &kp COLON     &kp APOS    &kp DQT     &kp COMMA     &kp LT      &kp DOT      &kp GT 
-            &msc SCRL_DOWN  &kp LSHFT    &kp Z     &kp X         &kp C       &kp V      &kp B             &kp LBKT      &kp LBRC    &kp RBKT    &kp RBRC      &kp GRAVE   &kp TILDE    &kp NUHS 
-			&none           &none        &none     &mo FUNCTION  &kp HOME    &kp DEL    &kp ENTER         &kp BSPC      &kp SPACE   &kp LEFT    &kp RIGHT     &kp RWIN    &kp K_CMENU  &kp TILDE2
+			&mkp LCLK       &kp ESC      &kp F1    &kp F2        &kp F3      &kp F4     &kp F5            &kp F6        &kp F7      &kp F8      &kp F9        &kp F10     &kp F11      &kp F12
+			&mkp MCLK       &kp GRAVE    &kp N1    &kp N2        &kp N3      &kp N4     &kp N5            &kp N6        &kp N7      &kp N8      &kp N9        &kp N0      &kp MINUS    &kp EQUAL
+			&mkp RCLK       &kp TAB      &kp Q     &kp W         &kp E       &kp R      &kp T             &kp Y         &kp U       &kp I       &kp O         &kp P       &kp LBKT     &kp RBKT 
+			&msc SCRL_UP    &kp CAPS     &kp A     &kp S         &kp D       &kp F      &kp G             &kp H         &kp J       &kp K       &kp L         &kp SEMI    &kp APOS     &kp NUHS 
+            &msc SCRL_DOWN  &kp LSHFT    &kp Z     &kp X         &kp C       &kp V      &kp B             &kp N         &kp M       &kp COMMA   &kp DOT       &kp FSLH    &kp TILDE    &kp RSHIFT 
+			&none           &none        &none     &mo FUNCTION  &kp HOME    &kp DEL    &kp ENTER         &kp BSPC      &kp SPACE   &kp LEFT    &kp RIGHT     &kp RWIN    &kp K_CMENU  &kp RCTRL
 			&kp DOWN        &kp LCTRL    &kp LWIN  &kp LALT      &kp UP      &kp SPACE  &kp BSPC          &kp ENTER     &kp DEL     &kp END     &mo FUNCTION  &none       &none        &none  
 			>;
 		};
