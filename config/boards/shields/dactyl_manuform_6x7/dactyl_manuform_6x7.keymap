@@ -35,13 +35,13 @@
 		
 		functions_layer {
 			bindings = <
-			&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4  &out OUT_TOG  &bt BT_CLR  &kp C_PP         &none  &none  &none  &none           &none        &none 
-			&sys_reset    &bootloader   &studio_unlock  &none         &none         &none         &none       &kp C_VOL_UP     &none  &none  &none  &studio_unlock  &bootloader  &sys_reset
-			&none         &none         &none           &none         &none         &none         &none       &kp C_VOL_DN     &none  &none  &none  &none           &none        &none 
-			&none  	      &none         &none           &none         &none         &none         &none       &kp PAUSE_BREAK  &none  &none  &none  &none           &none        &none 
-            &none         &none         &none           &none         &none         &none         &none       &kp PSCRN        &none  &none  &none  &none   	    &none        &none 
-			&none         &none         &none           &none         &none         &none         &none       &none            &none  &none  &none  &none           &none        &none 
-			&none         &none         &none           &none         &none         &none         &none       &none            &none  &none  &none  &none           &none        &none     
+			&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4  &out OUT_TOG  &bt BT_CLR  &kp C_PP         &kp EXCL   &kp STAR   &kp RBKT    &none           &none        &none 
+			&sys_reset    &bootloader   &studio_unlock  &none         &none         &none         &none       &kp C_VOL_UP     &kp AT     &kp LPAR   &kp RBRC    &studio_unlock  &bootloader  &sys_reset
+			&none         &none         &none           &none         &none         &none         &none       &kp C_VOL_DN     &kp POUND  &kp RPAR   &kp GRAVE   &kp FSLH        &kp PIPE2    &kp COMMA
+			&none  	      &none         &none           &none         &none         &none         &none       &kp PAUSE_BREAK  &kp DLLR   &kp EQUAL  &kp TILDE   &kp QMARK       &kp SEMI     &kp LT
+            &none         &none         &none           &none         &none         &none         &none       &kp PSCRN        &kp PRCNT  &kp PLUS   &kp NUHS    &kp BSLH  	     &kp COLON    &kp DOT
+			&none         &none         &none           &none         &none         &none         &none       &none            &kp CARET  &kp MINUS  &kp TILDE2  &kp PIPE        &kp APOS     &kp GT
+			&none         &none         &none           &none         &none         &none         &none       &none            &kp AMPS   &kp UNDER  &kp LBRC    &kp NUBS        &kp DQT      &kp LBKT    
 			>;
 		};
 	};
