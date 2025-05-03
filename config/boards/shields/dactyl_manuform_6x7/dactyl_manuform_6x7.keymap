@@ -23,25 +23,25 @@
 
 		default_layer {
 			bindings = <
-			&mkp LCLK       &kp ESC      &kp F1    &kp F2        &kp F3      &kp F4     &kp F5            &kp F6        &kp F7      &kp F8      &kp F9        &kp F10     &kp F11      &kp F12
-			&mkp MCLK       &kp APOS     &kp N1    &kp N2        &kp N3      &kp N4     &kp N5            &kp N6        &kp N7      &kp N8      &kp N9        &kp N0      &kp MINUS    &kp EQUAL
-			&mkp RCLK       &kp TAB      &kp Q     &kp W         &kp E       &kp R      &kp T             &kp Y         &kp U       &kp I       &kp O         &kp P       &kp CARET    &kp LBKT 
-			&msc SCRL_UP    &kp CAPS     &kp A     &kp S         &kp D       &kp F      &kp G             &kp H         &kp J       &kp K       &kp L         &kp BSLH    &kp GRAVE    &kp RBKT 
-            &msc SCRL_DOWN  &kp LSHFT    &kp Z     &kp X         &kp C       &kp V      &kp B             &kp N         &kp M       &kp COMMA   &kp DOT       &kp SEMI    &kp FSLH     &kp RSHIFT 
-			&none           &none        &none     &mo FUNCTION  &kp HOME    &kp DEL    &kp ENTER         &kp BSPC      &kp SPACE   &kp LEFT    &kp RIGHT     &kp RWIN    &kp K_CMENU  &kp RCTRL
+			&mkp LCLK       &kp ESC      &kp F1    &kp F2        &kp F3      &kp F4     &kp F5            &kp EXCL      &kp AT      &kp POUND   &kp DLLR      &kp PRCNT   &kp CARET    &kp AMPS
+			&mkp MCLK       &kp APOS     &kp N1    &kp N2        &kp N3      &kp N4     &kp N5            &kp STAR      &kp LPAR    &kp RPAR    &kp EQUAL     &kp PLUS    &kp MINUS    &kp UNDER
+			&mkp RCLK       &kp TAB      &kp Q     &kp W         &kp E       &kp R      &kp T             &kp FSLH      &kp QMARK   &kp BSLH    &kp PIPE      &kp NUBS    &kp PIPE2    &kp SEMI 
+			&msc SCRL_UP    &kp CAPS     &kp A     &kp S         &kp D       &kp F      &kp G             &kp COLON     &kp APOS    &kp DQT     &kp COMMA     &kp LT      &kp DOT      &kp GT 
+            &msc SCRL_DOWN  &kp LSHFT    &kp Z     &kp X         &kp C       &kp V      &kp B             &kp LBKT      &kp LBRC    &kp RBKT    &kp RBRC      &kp GRAVE   &kp TILDE    &kp NUHS 
+			&none           &none        &none     &mo FUNCTION  &kp HOME    &kp DEL    &kp ENTER         &kp BSPC      &kp SPACE   &kp LEFT    &kp RIGHT     &kp RWIN    &kp K_CMENU  &kp TILDE2
 			&kp DOWN        &kp LCTRL    &kp LWIN  &kp LALT      &kp UP      &kp SPACE  &kp BSPC          &kp ENTER     &kp DEL     &kp END     &mo FUNCTION  &none       &none        &none  
 			>;
 		};
 		
 		functions_layer {
 			bindings = <
-			&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4  &out OUT_TOG  &bt BT_CLR  &kp C_PP         &kp EXCL   &kp STAR   &kp RBKT    &none           &none        &none 
-			&sys_reset    &bootloader   &studio_unlock  &none         &none         &none         &none       &kp C_VOL_UP     &kp AT     &kp LPAR   &kp RBRC    &studio_unlock  &bootloader  &sys_reset
-			&none         &none         &none           &none         &none         &none         &none       &kp C_VOL_DN     &kp POUND  &kp RPAR   &kp GRAVE   &kp FSLH        &kp PIPE2    &kp COMMA
-			&none  	      &none         &none           &none         &none         &none         &none       &kp PAUSE_BREAK  &kp DLLR   &kp EQUAL  &kp TILDE   &kp QMARK       &kp SEMI     &kp LT
-            &none         &none         &none           &none         &none         &none         &none       &kp PSCRN        &kp PRCNT  &kp PLUS   &kp NUHS    &kp BSLH  	     &kp COLON    &kp DOT
-			&none         &none         &none           &none         &none         &none         &none       &none            &kp CARET  &kp MINUS  &kp TILDE2  &kp PIPE        &kp APOS     &kp GT
-			&none         &none         &none           &none         &none         &none         &none       &none            &kp AMPS   &kp UNDER  &kp LBRC    &kp NUBS        &kp DQT      &kp LBKT    
+			&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4  &out OUT_TOG  &bt BT_CLR  &kp C_PP         &none  &none  &none  &none           &none        &none 
+			&sys_reset    &bootloader   &studio_unlock  &none         &none         &none         &none       &kp C_VOL_UP     &none  &none  &none  &studio_unlock  &bootloader  &sys_reset
+			&none         &none         &none           &none         &none         &none         &none       &kp C_VOL_DN     &none  &none  &none  &none           &none        &none 
+			&none  	      &none         &none           &none         &none         &none         &none       &kp PAUSE_BREAK  &none  &none  &none  &none           &none        &none 
+            &none         &none         &none           &none         &none         &none         &none       &kp PSCRN        &none  &none  &none  &none   	    &none        &none 
+			&none         &none         &none           &none         &none         &none         &none       &none            &none  &none  &none  &none           &none        &none 
+			&none         &none         &none           &none         &none         &none         &none       &none            &none  &none  &none  &none           &none        &none     
 			>;
 		};
 	};
