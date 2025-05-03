@@ -1,0 +1,14 @@
+/ {
+    macros {
+        compatible = "zmk,macros";
+
+        slhqm: slhqm {
+            compatible = "zmk,behavior-macro";
+            label = "SLHQM";
+            bindings = <
+                &macro_tap &kp SLASH
+                &macro_press &kp LS(QUESTION)
+            >;
+        };
+    };
+};
