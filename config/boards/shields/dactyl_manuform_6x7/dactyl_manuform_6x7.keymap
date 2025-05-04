@@ -27,7 +27,7 @@
 			&mkp MCLK       &kp APOS     &kp N1    &kp N2        &kp N3      &kp N4     &kp N5            &kp N6        &kp N7      &kp N8      &kp N9        &kp N0      &kp MINUS    &kp EQUAL
 			&mkp RCLK       &kp TAB      &kp Q     &kp W         &kp E       &kp R      &kp T             &kp Y         &kp U       &kp I       &kp O         &kp P       &kp LBKT     &kp RBKT
 			&msc SCRL_UP    &kp CAPS     &kp A     &kp S         &kp D       &kp F      &kp G             &kp H         &kp J       &kp K       &kp L         &kp SEMI    &kp APOS     &kp NUHS
-            &msc SCRL_DOWN  &kp LSHFT    &kp Z     &kp X         &kp C       &kp V      &kp B             &kp N         &kp M       &kp COMMA   &kp DOT       &kp SLASH   &slhqm       &kp RSHIFT
+            &msc SCRL_DOWN  &kp LSHFT    &kp Z     &kp X         &kp C       &kp V      &kp B             &kp N         &kp M       &kp COMMA   &kp DOT       &kp SLASH   &sk &slhqm   &kp RSHIFT
 			&none           &none        &none     &mo FUNCTION  &kp HOME    &kp DEL    &kp ENTER         &kp BSPC      &kp SPACE   &kp LEFT    &kp RIGHT     &kp RWIN    &kp K_CMENU  &kp RCTRL
 			&kp DOWN        &kp LCTRL    &kp LWIN  &kp LALT      &kp UP      &kp SPACE  &kp BSPC          &kp ENTER     &kp DEL     &kp END     &mo FUNCTION  &none       &none        &none
 			>;
