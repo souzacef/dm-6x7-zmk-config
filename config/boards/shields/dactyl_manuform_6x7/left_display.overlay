@@ -14,6 +14,7 @@
         segment-offset = <0>;
         page-offset = <0>;
         display-offset = <0>;
+        prechargep = <0x22>;
         multiplex-ratio = <31>;
         // reset-gpios = <&gpio0 10 GPIO_ACTIVE_LOW>; // Only if you wired it
     };
