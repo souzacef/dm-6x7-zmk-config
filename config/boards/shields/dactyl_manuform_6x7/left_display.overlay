@@ -1,8 +1,9 @@
 &i2c1 {
     compatible = "nordic,nrf-twim";
     status = "okay";
-    sda-pin = <29>;
-    scl-pin = <31>;
+
+    pinctrl-0 = <&i2c1_default>;
+    pinctrl-names = "default";
 
     oled@3c {
         compatible = "solomon,ssd1306fb";
@@ -14,7 +15,44 @@
         page-offset = <0>;
         display-offset = <0>;
         multiplex-ratio = <31>;
-        /* Comment out the reset line if your OLED reset pin isn't connected */
-        // reset-gpios = <&gpio0 10 GPIO_ACTIVE_LOW>;
+        // reset-gpios = <&gpio0 10 GPIO_ACTIVE_LOW>; // Only if you wired it
+    };
+};
+
+&pinctrl {
+    i2c1_default: i2c1_default {
+        group1 {
+            psels = <NRF_PSEL(TWIM_SCL, 0, 31)>,
+                    <NRF_PSEL(TWIM_SDA, 0, 29)>;
+        };
+    };
+};
+&i2c1 {
+    compatible = "nordic,nrf-twim";
+    status = "okay";
+
+    pinctrl-0 = <&i2c1_default>;
+    pinctrl-names = "default";
+
+    oled@3c {
+        compatible = "solomon,ssd1306fb";
+        reg = <0x3c>;
+        label = "OLED";
+        width = <128>;
+        height = <32>;
+        segment-offset = <0>;
+        page-offset = <0>;
+        display-offset = <0>;
+        multiplex-ratio = <31>;
+        // reset-gpios = <&gpio0 10 GPIO_ACTIVE_LOW>; // Only if you wired it
+    };
+};
+
+&pinctrl {
+    i2c1_default: i2c1_default {
+        group1 {
+            psels = <NRF_PSEL(TWIM_SCL, 0, 31)>,
+                    <NRF_PSEL(TWIM_SDA, 0, 29)>;
+        };
     };
 };
